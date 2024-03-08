@@ -1,0 +1,7 @@
+.card{
+    display: flex;
+    justify-content: space-between;
+    background-color:cornflowerblue;
+    padding: 15px;
+    height: 40px;
+}
