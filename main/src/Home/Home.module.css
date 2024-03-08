@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:cornflowerblue;
+    left: 0px;
+    background-color:aquamarine;
     padding: 15px;
     height: 40px;
 }
