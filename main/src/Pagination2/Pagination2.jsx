@@ -8,6 +8,7 @@ export default function Pagination2({id,name,email,role}){
             <h3>{email}</h3>
             <h3>{role}</h3>
         </div>
+        <hr/>
         </>
     )
 }
