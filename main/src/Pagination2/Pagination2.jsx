@@ -10,5 +10,4 @@ export default function Pagination2({id,name,email,role}){
         </div>
         </>
     )
-
 }
