@@ -17,9 +17,8 @@ export default function Home(){
             const response=await axios.get('https://geektrust.s3-ap-southeast-1.amazonaws.com/adminui-problem/members.json')
             setData(response.data)
             setRdata(response.data.slice(pageno-1,10));
-
         }catch(e){
-            console.error(e)
+            console.error("fetchDataFailed")
         }
     }
 
