@@ -116,7 +116,7 @@ export default function Home() {
       setRdata(response.data.slice((pageno - 1) * 10, pageno * 10));
     } catch (e) {
       console.error(e);
-      alert("fetchDataFailed");
+      alert("failed to fetch data");
     }
   };
 
