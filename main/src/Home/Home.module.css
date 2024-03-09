@@ -7,3 +7,38 @@
     padding: 15px;
     height: 40px;
 }
+
+.button{
+    display: flex;
+    align-items: center;
+}
+.but2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    position: relative;
+    margin-top: 20px;
+    left: 25%;
+}
+.cumr th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+.cumr td, .cumr th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+.cumr {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    position: relative;
+    margin-top: 10%;
+  }
+
+
