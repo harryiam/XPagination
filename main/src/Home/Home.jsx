@@ -18,7 +18,8 @@ export default function Home(){
             setData(response.data)
             setRdata(response.data.slice(pageno-1,10));
         }catch(e){
-            console.error("fetchDataFailed")
+            console.error(e)
+            alert("fetchDataFailed")
         }
     }
 
